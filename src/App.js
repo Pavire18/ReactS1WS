@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import CustomFooter from './components/CustomFooter/CustomFooter';
+import CustomHeader from './components/CustomHeader/CustomHeader';
+import CustomMain from './components/CustomMain/CustomMain';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CustomHeader/>
+      <CustomMain
+        title="Ejercicio React"
+        text="Lorem ipsum dolor sit amet consectetur adipiscing elit ullamcorper sociosqu,
+        fames nibh facilisis turpis pulvinar molestie mus nulla eros nisl,
+        varius sem donec sagittis facilisi dictumst iaculis nascetur. "/>
+      <CustomFooter text="2022"/>
     </div>
   );
 }

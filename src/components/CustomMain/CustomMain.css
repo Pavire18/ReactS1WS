@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 125px auto;
+    text-align: center;
+}
+.main__title{
+    font-size: 55px;
+}
+.main__text{
+    color: gray;
+}
